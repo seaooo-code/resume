@@ -58,7 +58,7 @@ const Experience = (props: IExperienceProps) => {
     descriptionList,
   }: ExperienceItem) => {
     return (
-      <div>
+      <div key={time}>
         <div className={"flex items-center pl-1"}>
           <svg className="icon text-xl" aria-hidden="true">
             <use href={`#icon-${icon}`} />

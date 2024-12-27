@@ -1,12 +1,17 @@
+import { useTranslations } from "next-intl";
+
 interface IBasicProps {
   className?: string;
 }
 export default function Basic(props: IBasicProps) {
   const { className } = props;
+
+  const t = useTranslations("basic");
+
   return (
     <div className={`${className || ""}`}>
       <div className={"flex-1 flex flex-col justify-center"}>
-        <p className={"text-3xl font-bold"}>杨晨辉</p>
+        <p className={"text-3xl font-bold"}>{t("name")}</p>
         <p className={"mt-1"}>做你喜欢的事情，任何时候都不会太迟</p>
       </div>
       <div className="flex-1 mt-2 text-sm">
