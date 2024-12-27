@@ -15,8 +15,11 @@ import { Button } from "@nextui-org/button";
 import { setUserLocale } from "@/services/locale";
 import { Locale } from "@/i18n/config";
 import { NextUIProvider } from "@nextui-org/react";
+import { useLocale } from "next-intl";
 
 export default function Home() {
+  const locale = useLocale();
+  console.log(locale);
   return (
     <NextUIProvider>
       <main className="relative m-auto left-0 right-0 w-[794px] text-[color:#454d64]">
@@ -33,6 +36,8 @@ export default function Home() {
           <DropdownMenu
             aria-label="Profile Actions"
             variant="flat"
+            selectedKeys={[locale]}
+            selectionMode="single"
             onAction={(key) => setUserLocale(key as Locale)}
           >
             <DropdownItem key="zh">中文</DropdownItem>
