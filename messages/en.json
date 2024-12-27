@@ -27,7 +27,53 @@
     }
   },
   "experience": {
-    "title": "Work Experience"
+    "title": "Work Experience",
+    "second": {
+      "company": "ByteDance",
+      "position": "Frontend Engineer",
+      "department": "Customer Service Platform",
+      "icon": "byte",
+      "tags": {
+        "first": "React",
+        "second": "Node.js",
+        "third": "dnd-kit",
+        "fourth": "Micro Frontends",
+        "fifth": "First Screen Optimization",
+        "sixth": "Bundle Size Optimization"
+      },
+      "time": "10/2022 - Present",
+      "contents": {
+        "first": "Developed HR management, account administration, and link management platforms, implementing core features including personnel transfer, platform account management, and centralized link maintenance, improving operational efficiency and streamlining business processes",
+        "second": "Participated in the development and testing of low-code platform, successfully delivered multiple business pages using the platform, and contributed custom material components to enhance team development efficiency",
+        "third": "Maintained BFF services on FaaS platform, diagnosed and resolved Node.js memory leaks through in-depth troubleshooting, optimizing system performance and ensuring service stability",
+        "fourth": "Optimized project bundle size using Perfsee tools, significantly improved bundle score, and implemented degradation prevention mechanisms to maintain long-term performance",
+        "fifth": "Reduced initial page load time from 8s to 2s through interceptor optimization, request caching, API enhancement and middleware refactoring, significantly improving user experience",
+        "sixth": "Led system framework upgrade initiative, achieving 266% faster build speed and 62% reduction in dependency size, significantly improving development efficiency and reducing resource consumption",
+        "seventh": "Designed and developed configuration-based form system enabling dynamic form rendering and data submission, significantly improving development efficiency and business iteration speed",
+        "eighth": "Developed full-stack build time dashboard for performance visualization and analysis, enabling timely detection and resolution of build bottlenecks to enhance team efficiency"
+      }
+    },
+    "first": {
+      "company": "Shopee",
+      "time": "06/2022 - 09/2022",
+      "icon": "shopee",
+      "position": "Web & Mobile Frontend Engineer",
+      "department": "App & RN",
+      "tags": {
+        "first": "React",
+        "second": "React Native",
+        "third": "Playwright",
+        "fourth": "Istanbul"
+      },
+      "contents": {
+        "first": "Led performance optimization initiatives for Shopee App, focusing on exploring and implementing server-side rendering technology for React Native, significantly improving app loading performance and user experience",
+        "second": "Validated the feasibility of executing React Native code in Node.js environment and verified the accuracy of rendering sequence output, establishing crucial technical foundation for future project implementation。",
+        "third": "Implemented code coverage testing using Istanbul and UI automation framework, enhanced project test coverage and optimized application performance to improve product quality and stability"
+      }
+    }
   },
-  "skill": {}
+  "skill": {
+    "title": "Skills & Honors",
+    "honors": "Second Prize in National Collegiate Service Outsourcing Competition, CET-4/6 Certification, Outstanding Volunteer Award"
+  }
 }

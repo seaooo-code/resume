@@ -1,8 +1,13 @@
+import { useTranslations } from "next-intl";
+
 interface ISkillProps {
   className?: string;
 }
 const Skill = (props: ISkillProps) => {
   const { className } = props;
+
+  const t = useTranslations("skill");
+
   return (
     <div className={className || ""}>
       <div className={"flex items-center text-lg font-bold"}>技能/荣誉</div>
@@ -20,9 +25,7 @@ const Skill = (props: ISkillProps) => {
         <svg className="icon" aria-hidden="true">
           <use href="#icon-reward" />
         </svg>
-        <span className="ml-3 text-sm">
-          大学生服务外包大赛二等奖、英语四六级、优秀志愿者
-        </span>
+        <span className="ml-3 text-sm">{t("honors")}</span>
       </div>
     </div>
   );
