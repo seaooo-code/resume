@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { Chip } from "@nextui-org/chip";
 
 interface IExperienceProps {
   className?: string;
@@ -41,15 +42,12 @@ const Experience = (props: IExperienceProps) => {
             <p className={"text-sm text-gray-500"}>{time}</p>
           </div>
         </div>
-        <div className="mb-3">
+        <div className="my-3 flex gap-4">
           {tags.map((name) => {
             return (
-              <span
-                className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded"
-                key={name}
-              >
+              <Chip key={name} size="sm">
                 {name}
-              </span>
+              </Chip>
             );
           })}
         </div>
