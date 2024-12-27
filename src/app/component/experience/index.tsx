@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { useTranslations } from "next-intl";
 
 interface IExperienceProps {
   className?: string;
@@ -48,6 +49,9 @@ const EXPERIENCES: ExperienceItem[] = [
 ];
 const Experience = (props: IExperienceProps) => {
   const { className } = props;
+
+  const t = useTranslations("experience");
+
   const experienceItem = ({
     company,
     time,
@@ -95,7 +99,9 @@ const Experience = (props: IExperienceProps) => {
   };
   return (
     <div className={className}>
-      <div className={"flex items-center text-lg font-bold mb-2"}>工作经历</div>
+      <div className={"flex items-center text-lg font-bold mb-2"}>
+        {t("title")}
+      </div>
       <div className="[&>:not(:first-child)]:mt-4">
         {EXPERIENCES.map((item, index) => {
           if (index === EXPERIENCES.length - 1) {

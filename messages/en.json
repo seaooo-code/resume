@@ -1,9 +1,33 @@
 {
   "basic": {
-    "name": "Yang Chenhui"
+    "name": "Yang Chenhui",
+    "motto": "It's never too late to do what you love",
+    "position": "Frontend Developer",
+    "address": "Building 7, North Area of Aohaiminyue, Changping District, Beijing"
   },
-  "education": {},
-  "experience": {},
-  "profile": {},
+  "profile": {
+    "title": "About Me",
+    "item1": "A dedicated developer with a passion for programming and product implementation. Particularly interested in cross-platform solutions, computer networks, and emerging technologies like Rust. Driven by the challenge of turning concepts into practical applications.",
+    "item2": "Demonstrated strong hands-on abilities through various DIY projects, including hardware assembly and repairs. Particularly passionate about smart home solutions, NAS deployment, and technology exploration.",
+    "item3": "Maintains an active lifestyle through skiing, photography, and badminton. Combines recreational pursuits with social responsibility through regular community service and volunteer activities."
+  },
+  "education": {
+    "title": "Education Background",
+    "bupt": {
+      "name": "Beijing University of Posts and Telecommunications",
+      "degree": "Master",
+      "major": "Software Engineering",
+      "time": "2019 - 2022"
+    },
+    "hebut": {
+      "name": "Hubei University of Technology",
+      "degree": "Bachelor",
+      "major": "Electrical Engineering and Automation",
+      "time": "2015 - 2019"
+    }
+  },
+  "experience": {
+    "title": "Work Experience"
+  },
   "skill": {}
 }
