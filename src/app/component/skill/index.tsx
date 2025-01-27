@@ -10,7 +10,7 @@ const Skill = (props: ISkillProps) => {
 
   return (
     <div className={className || ""}>
-      <div className={"flex items-center text-lg font-bold"}>技能/荣誉</div>
+      <div className={"flex items-center text-lg font-bold"}>{t("title")}</div>
       <div className="flex items-center mt-2">
         <svg className="icon" aria-hidden="true">
           <use href="#icon-skill" />
