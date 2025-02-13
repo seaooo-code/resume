@@ -7,9 +7,10 @@
   },
   "profile": {
     "title": "About Me",
-    "item1": "A dedicated developer with a passion for programming and product implementation. Particularly interested in cross-platform solutions, computer networks, and emerging technologies like Rust. Driven by the challenge of turning concepts into practical applications.",
-    "item2": "Demonstrated strong hands-on abilities through various DIY projects, including hardware assembly and repairs. Particularly passionate about smart home solutions, NAS deployment, and technology exploration.",
-    "item3": "Maintains an active lifestyle through skiing, photography, and badminton. Combines recreational pursuits with social responsibility through regular community service and volunteer activities."
+    "item1": "Focused on user experience and maintainability, proficient in mainstream frameworks such as React and Vue, and adept at performance optimization and engineering best practices",
+    "item2": "A dedicated developer with a passion for programming and product implementation. Particularly interested in cross-platform solutions, computer networks, and emerging technologies like Rust. Driven by the challenge of turning concepts into practical applications",
+    "item3": "Demonstrated strong hands-on abilities through various DIY projects, including hardware assembly and repairs. Particularly passionate about smart home solutions, NAS deployment, and technology exploration",
+    "item4": "Maintains an active lifestyle through skiing, photography, and badminton. Combines recreational pursuits with social responsibility through regular community service and volunteer activities"
   },
   "education": {
     "title": "Education Background",
@@ -46,7 +47,7 @@
         "first": "Developed HR management, account administration, and link management platforms, implementing core features including personnel transfer, platform account management, and centralized link maintenance, improving operational efficiency and streamlining business processes",
         "second": "Participated in the development and testing of low-code platform, successfully delivered multiple business pages using the platform, and contributed custom material components to enhance team development efficiency",
         "third": "Maintained BFF services on FaaS platform, diagnosed and resolved Node.js memory leaks through in-depth troubleshooting, optimizing system performance and ensuring service stability",
-        "fourth": "Optimized project bundle size using Perfsee tools, significantly improved bundle score, and implemented degradation prevention mechanisms to maintain long-term performance",
+        "fourth": "Responsible for front-end code quality by enforcing coding standards, analyzing issues, and initiating governance tasks, significantly improving project maintainability and stability",
         "fifth": "Reduced initial page load time from 8s to 2s through interceptor optimization, request caching, API enhancement and middleware refactoring, significantly improving user experience",
         "sixth": "Led system framework upgrade initiative, achieving 266% faster build speed and 62% reduction in dependency size, significantly improving development efficiency and reducing resource consumption",
         "seventh": "Designed and developed configuration-based form system enabling dynamic form rendering and data submission, significantly improving development efficiency and business iteration speed",
@@ -67,7 +68,7 @@
       },
       "contents": {
         "first": "Led performance optimization initiatives for Shopee App, focusing on exploring and implementing server-side rendering technology for React Native, significantly improving app loading performance and user experience",
-        "second": "Validated the feasibility of executing React Native code in Node.js environment and verified the accuracy of rendering sequence output, establishing crucial technical foundation for future project implementation。",
+        "second": "Validated the feasibility of executing React Native code in Node.js environment and verified the accuracy of rendering sequence output, establishing crucial technical foundation for future project implementation",
         "third": "Implemented code coverage testing using Istanbul and UI automation framework, enhanced project test coverage and optimized application performance to improve product quality and stability"
       }
     }

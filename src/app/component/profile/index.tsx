@@ -15,6 +15,7 @@ export default function Profile(props: IProfileProps) {
         <li className={"mt-2"}>{t("item1")}</li>
         <li className={"mt-1"}>{t("item2")}</li>
         <li className={"mt-1"}>{t("item3")}</li>
+        <li className={"mt-1"}>{t("item4")}</li>
       </ul>
     </div>
   );
